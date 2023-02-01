@@ -17,7 +17,7 @@ app.all('/secret', (req, res, next) => {
 })
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('Hello World from Server!');
 })
 
 app.get('/about', (req, res) => {
