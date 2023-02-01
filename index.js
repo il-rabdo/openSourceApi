@@ -7,7 +7,7 @@ saluta(people.persona2);
 
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 3030;
+const port = process.env.PORT || 3000;
 // const port = 3000;
 
 //MIDDLEWARE
